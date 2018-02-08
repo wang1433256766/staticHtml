@@ -1,0 +1,83 @@
+/*--------content---------*/
+.content{
+	width: 1200px;
+	background: #fff;
+	margin: 0 auto;
+	padding: 10px 50px;
+}
+.content .content-top{
+	padding: 10px 0;
+	text-align: right;
+}
+.content .content-top i{
+	color: #0056a9;
+	vertical-align: middle;
+}
+.content .content-top span{
+	font-size: 12px;
+	color: #666;
+}
+.content .content-main .content-main-title{
+	padding: 20px 0 0 0;
+}
+.content .content-main .content-main-title img{
+	vertical-align: middle;
+}
+.content .content-main .content-main-title span{
+	font-size: 14px;
+	font-weight: bold;
+	color: #0056a9;
+}
+.content .content-main>ul{
+	width: 100%;
+	font-size: 12px;
+	color: #8f272e;
+	list-style-position: inside;
+}
+.content .content-main>ul li{
+	width: 100%;
+	line-height: 1.425em;
+    padding: 10px 0;
+}
+.content .content-main>ul li .subtitle{
+	display: inline-block;
+	width: 88%;
+	text-align: left;
+}
+.content .content-main>ul li .subtitle a{
+	text-decoration: none;
+	color: #333;
+}
+.content .content-main>ul li .subtitle a:hover{
+	text-decoration: underline;
+	color: #8f272e;
+}
+.content .content-main>ul li .subdate{
+	display: inline-block;
+	width: 10%;
+	text-align: right;
+	color: #999;
+}
+.content .content-main .pagination{
+	padding: 10px 0 40px 0;
+	text-align: center;
+}
+.content .content-main .pagination ul{
+	width: 100%;
+	list-style: none;
+}
+.content .content-main .pagination ul li{
+	display: inline-block;
+}
+.content .content-main .pagination ul li a{
+	text-decoration: none;
+	font-size: 9px;
+	color: #666;
+	border: 1px solid #dedede;
+	padding: 5px 10px;
+}
+.content .content-main .pagination ul li.active a,.content .content-main .pagination ul li a:hover{
+	background: #0056a9;
+	color: #fff;
+	border: 1px solid #0056a9;
+}

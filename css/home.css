@@ -1,0 +1,338 @@
+/*--------content---------*/
+.content{
+	width: 1200px;
+	background: #fff;
+	margin: 0 auto;
+	padding: 10px;
+}
+.content .main-content{
+	padding: 25px;
+}
+
+/*----------------新闻-------------------*/
+.content .main-content .news .news-title .news-title-left{
+	float: left;
+}
+.content .main-content .news .news-title .news-title-left img{
+	vertical-align: middle;
+}
+.content .main-content .news .news-title .news-title-left span{
+	font-size: 14px;
+	font-weight: bold;
+	color: #0056a9;
+}
+.content .main-content .news .news-title .news-title-right{
+	float: right;
+}
+.content .main-content .news .news-title:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.content .main-content .news .news-content{
+	padding: 10px 0;
+	height: 330px;
+}
+.content .main-content .news .news-content .news-content-left{
+	width: 35%;
+	float: left;
+	padding-top: 5px;
+}
+.content .main-content .news .news-content .news-content-right{
+	width: 65%;
+	float: right;
+}
+.content .main-content .news .news-content:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.content .main-content .news .news-content .news-content-right ul{
+	padding: 0px 15px;
+	list-style: none;
+}
+.content .main-content .news .news-content .news-content-right ul li{
+	height: 75px;
+	padding: 5px
+}
+.content .main-content .news .news-content .news-content-right ul li:hover,
+.content .main-content .news .news-content .news-content-right ul li.hover{
+	cursor: pointer;
+	background: rgba(0,86,169,0.1);
+}
+.content .main-content .news .news-content .news-content-right ul li .news-date{
+	float: left;
+	width: 75px;
+	height: 65px;
+	color: #fff;
+	text-align: center;
+}
+.content .main-content .news .news-content .news-content-right ul li .news-date .little-font{
+	margin-top: 13px;
+	font-size: 10px;
+}
+.content .main-content .news .news-content .news-content-right ul li .news-date .large-font{
+	font-size: 20px;
+}
+.content .main-content .news .news-content .news-content-right ul li .news-date-1{
+	background: #5e99db;
+}
+.content .main-content .news .news-content .news-content-right ul li .news-date-2{
+	background: #db5e6c;
+}
+.content .main-content .news .news-content .news-content-right ul li .news-fonts{
+	float: left;
+	padding-left: 20px;
+	width: 600px;
+	height: 65px;
+	line-height: 1.425em;
+}
+.content .main-content .news .news-content .news-content-right ul li .news-fonts p{
+	font-size: 12px;
+	color: #666;
+}
+.content .main-content .news .news-content .news-content-right ul li .news-fonts .bold-fonts{
+	margin-top: 8px;
+	color: #333;
+	font-weight: bold;
+}
+.content .main-content .news .news-content .news-content-right ul li:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*-----------报告和重要机构-----------*/
+.content .main-content .reportsAndInstitutions{
+
+}
+.content .main-content .reportsAndInstitutions .reports{
+	width: 77%;
+	float: left;
+}
+.content .main-content .reportsAndInstitutions .institutions{
+	width: 23%;
+	float: right;
+}
+.content .main-content .reportsAndInstitutions:after,
+.content .main-content .reportsAndInstitutions .reports .reports-title:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.content .main-content .reportsAndInstitutions .reports .reports-title .reports-title-left{
+	float: left;
+}
+.content .main-content .reportsAndInstitutions .reports .reports-title .reports-title-left img{
+	vertical-align: middle;
+}
+.content .main-content .reportsAndInstitutions .reports .reports-title .reports-title-left span{
+	font-size: 14px;
+	font-weight: bold;
+	color: #0056a9;
+}
+.content .main-content .reportsAndInstitutions .reports ul{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 14px;
+	color: #8f272e;
+	list-style-position: inside;
+}
+.content .main-content .reportsAndInstitutions .reports ul li{
+	width: 100%;
+	line-height: 1.425em;
+    padding: 10px 0;
+}
+.content .main-content .reportsAndInstitutions .reports ul li a{
+	text-decoration: none;
+	color: #333;
+	font-size: 12px;
+}
+.content .main-content .reportsAndInstitutions .reports ul li a:hover{
+	text-decoration: underline;
+	color: #8f272e;
+}
+.content .main-content .reportsAndInstitutions .institutions .institutions-title{
+	width: 226px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0056a9;
+	margin: 0px 0px 0px auto;
+}
+.content .main-content .reportsAndInstitutions .institutions .institutions-logo{
+	width: 226px;
+	height: 46px;
+	border: 3px solid #0056a9;
+	margin: 10px auto;
+	margin-right: 0px;
+}
+
+/*------------------期刊论文和编辑推荐---------------------------*/
+.content .main-content .journalAndEditors{
+	margin-top: 15px;
+}
+.content .main-content .journalAndEditors .journal,
+.content .main-content .journalAndEditors .editors{
+	width: 50%;
+	float: left;
+}
+.content .main-content .journalAndEditors .journal{
+	padding-right: 30px;
+}
+.content .main-content .journalAndEditors .editors{
+	padding-left: 30px;
+}
+.content .main-content .journalAndEditors:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.content .main-content .journalAndEditors .journal .journal-title .journal-title-left,
+.content .main-content .journalAndEditors .editors .editors-title .editors-title-left{
+	float: left;
+}
+.content .main-content .journalAndEditors .journal .journal-title .journal-title-left img,
+.content .main-content .journalAndEditors .editors .editors-title .editors-title-left img{
+	vertical-align: middle;
+}
+.content .main-content .journalAndEditors .journal .journal-title .journal-title-left span,
+.content .main-content .journalAndEditors .editors .editors-title .editors-title-left span{
+	font-size: 14px;
+	font-weight: bold;
+	color: #0056a9;
+}
+.content .main-content .journalAndEditors .journal .journal-title .journal-title-right,
+.content .main-content .journalAndEditors .editors .editors-title .editors-title-right{
+	float: right;
+}
+.content .main-content .journalAndEditors .journal .journal-title:after,
+.content .main-content .journalAndEditors .editors .editors-title:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.content .main-content .journalAndEditors .journal ul,
+.content .main-content .journalAndEditors .editors ul{
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	color: #8f272e;
+	list-style-position: inside;
+}
+.content .main-content .journalAndEditors .journal ul li,
+.content .main-content .journalAndEditors .editors ul li{
+	width: 100%;
+	line-height: 1.425em;
+    padding: 5px 0;
+	font-size: 12px;
+}
+.content .main-content .journalAndEditors .journal ul li .subtitle,
+.content .main-content .journalAndEditors .editors ul li .subtitle{
+	display: inline-block;
+	width: 80%;
+	text-align: left;
+}
+.content .main-content .journalAndEditors .journal ul li .subtitle a,
+.content .main-content .journalAndEditors .editors ul li .subtitle a{
+	text-decoration: none;
+	color: #333;
+}
+.content .main-content .journalAndEditors .journal ul li .subtitle a:hover,
+.content .main-content .journalAndEditors .editors ul li .subtitle a:hover{
+	text-decoration: underline;
+	color: #8f272e;
+}
+.content .main-content .journalAndEditors .journal ul li .subdate,
+.content .main-content .journalAndEditors .editors ul li .subdate{
+	display: inline-block;
+	width: 15%;
+	text-align: right;
+	color: #333;
+}
+
+/*-------------------重要期刊--------------------*/
+.content .main-content .important-journals{
+	margin: 10px 0 20px 0;
+}
+.content .main-content .important-journals .ij-left{
+	width: 230px;
+	float: left;
+}
+.content .main-content .important-journals .ij-right{
+	width: 900px;
+	float: right;
+}
+.content .main-content .important-journals:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.content .main-content .important-journals .ij-left .ij-left-content{
+	width: 188px;
+	height: 138px;
+	background: #8f272e;
+	color: #fff;
+	padding: 10px 0 0 15px;
+    line-height: 1.2em;
+}
+.content .main-content .important-journals .ij-left .ij-left-content .chi{
+	font-size: 14px;
+}
+.content .main-content .important-journals .ij-left .ij-left-content .eng{
+	font-size: 9px;
+}
+
+.content .main-content .important-journals .ij-right .scroll-img {
+	float: left;
+	width: 830px;
+	height: 142px;
+	overflow: hidden;
+	font-size: 0;
+}
+.content .main-content .important-journals .ij-right .scroll-img ul {
+	width: 1500px;
+	height: 600px;
+	margin: 0;
+	list-style: none;
+}
+.content .main-content .important-journals .ij-right .scroll-img ul li {
+	display: inline-block;
+	margin: 10px 13px;
+	position: relative;
+}
+.content .main-content .important-journals .ij-right .scroll-img ul li img{
+	width: 92px;
+	height: 122px;
+}
+.content .main-content .important-journals .ij-right .scroll-img ul li span{
+	display: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 92px;
+	height: 20px;
+	color: #fff;
+	font-size: 12px;
+    text-align: center;
+	background: #0056a9;
+	filter:alpha(opacity=90);-moz-opacity:0.9;opacity: 0.9;
+}
+.content .main-content .important-journals .ij-right .scroll-img ul li:hover span{
+	display: block;
+}
+.content .main-content .important-journals .ij-right .scroll-more{
+	width: 70px;
+	margin-top: 45px;
+	float: right;
+	text-align: right;
+}
+.content .main-content .important-journals .ij-right .scroll-more img{
+	cursor: pointer;
+}
+.content .main-content .important-journals .ij-right:after{
+	content: "";
+	display: table;
+	clear: both;
+}
