@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flex</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            height: 100%;
+        }
+        
+        body {
+            height: 100%;
+            display: flex;
+            /*垂直居中*/
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .parent-box {
+            width: 380px;
+            height: 280px;
+            display: flex;
+            border: 1px solid green;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: space-around;
+        }
+        
+        .parent-box .box {
+            display: flex;
+            width: 100px;
+            height: 100px;
+            border: 1px solid #666666;
+            border-radius: 10px;
+        }
+        
+        .parent-box .box span {
+            width: 26px;
+            height: 26px;
+            border: 1px solid #000000;
+            border-radius: 25px;
+            background: #000000;
+        }
+        
+        .parent-box .box1 {
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .parent-box .box2 {
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        .parent-box .box3 {
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        
+        .parent-box .box3 span:nth-child(2) {
+            align-self: center;
+        }
+        
+        .parent-box .box3 span:nth-child(3) {
+            align-self: flex-end;
+        }
+        
+        .parent-box .box4 {
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+        
+        .parent-box .box4 .child-box {
+            flex-basis: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .parent-box .box5 {
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+        
+        .parent-box .box5 .child-box {
+            display: flex;
+            flex-basis: 100%;
+            justify-content: space-around;
+        }
+        
+        .parent-box .box5 .child-box:nth-child(2) {
+            justify-content: center;
+        }
+        
+        .parent-box .box6 {
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+        
+        .parent-box .box6 .child-box {
+            display: flex;
+            flex-basis: 100%;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent-box">
+        <div class="box box1">
+            <span></span>
+        </div>
+        <div class="box box2">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="box box3">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="box box4">
+            <div class="child-box">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="child-box">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="box box5">
+            <div class="child-box">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="child-box">
+                <span></span>
+            </div>
+            <div class="child-box">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="box box6">
+            <div class="child-box">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="child-box">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="child-box">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
